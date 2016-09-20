@@ -1,0 +1,22 @@
+{
+  "name": "3Weeks3Pages",
+  "version": "1.0.0",
+  "description": "3 weeks 3 page boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaden Zhang",
+  "license": "ISC",
+  "keywords": [
+    "3 weeks 3 page"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoyanzhuzzh/3Weeks3Pages.git"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
+  }
+}
