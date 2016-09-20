@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    vertical-align: middle;
+}
+.logo{
+    width: 25%;
+    height: 54px;
+    display: inline-block;
+    background: url(../images/logo.png) no-repeat center right;
+    background-size: 98px;
+    margin: auto auto;
+}
+.navigation{
+    margin: auto 30px;
+    width: 75%;
+    border: solid gainsboro 1px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    text-align: center;
+}
+.navigation_list{
+    display: inline-block;
+    padding-left: 0;
+}
+.navigation_item{
+    display: inline-block;
+    padding: 0.3em 2.1em;
+}
+.navigation_item:first-child{
+    padding-left: 1.1em;
+}
+.navigation_item:last-child{
+    padding-right: 1.3em;
+}
+.navigation_item a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.donate{
+    text-align: center;
+    margin: auto 10px;
+    width: 15%;
+    line-height: 30px;
+    border: solid 1px grey;
+    border-radius: 0.3em;
+    font-family: 'Bree Serif', serif;;
+}
+.image_wrapper{
+    position: relative;
+    text-align: center;
+}
+.image{
+    height: 540px;
+    background: url(../images/main.jpg) center center no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.image_over{
+    position: absolute;
+    color: white;
+    left: 20em;
+    right: 20em;
+    top: 8em;
+    z-index: 100;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.image_message h3{
+    font-size: 2em;
+}
+.image_button{
+    display: inline-block;
+    margin-top: 0.5em;
+    border: solid 0.1em #F8F7EE;
+    height: 2.3em;
+    width: 13.3em;
+    text-align: center;
+    line-height: 2.3em;
+    border-radius: 0.2em;
+}
+.button-gray{
+    background-color: gray;
+    opacity: 0.3;
+}
+.mission{
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3.5em;
+}
+.mission_details{
+    margin: auto auto;
+    max-width: 538px;
+    color: #74706E;
+}
+.mission_title{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 2em;
+}
+.mission_description{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
+}
+.mission_button{
+    margin: 3em;
+    height: 3.7em;
+    width: 15em;
+    border-radius: 0.4em;
+}
+.button_orange{
+    background-color: #ffc542;
+    border: solid #ffc542 1px;
+}
+.container{
+    height: 450px;
+}
+.student{
+    background-color: #91d0b1;
+}
+.student_icon{
+    background: url(../images/student.png) center center no-repeat;
+    background-size: inherit;
+    height:100%;
+    width: 50%;
+    float: left;
+}
+.student_details{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.tutor{
+    background-color: #ffcd62;
+}
+.tutor_icon{
+    background: url(../images/tutor.png) center center no-repeat;
+    background-size: inherit;
+    height:100%;
+    width: 50%;
+    float: right;
+}
+.tutor_details{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.partner{
+    background-color: skyblue;
+}
+.partner_icon{
+    background: url(../images/partner.png) center center no-repeat;
+    background-size: inherit;
+    height:100%;
+    width: 50%;
+    float: left;
+}
+.partner_details{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
