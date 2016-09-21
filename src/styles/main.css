@@ -126,12 +126,12 @@ body{
     background-size: inherit;
     height:100%;
     width: 50%;
-    float: left;
 }
-.student_details{
+.student_details,
+.tutor_details,
+.partner_details{
     width: 50%;
     height: 100%;
-    float: right;
 }
 .tutor{
     background-color: #ffcd62;
@@ -141,12 +141,6 @@ body{
     background-size: inherit;
     height:100%;
     width: 50%;
-    float: right;
-}
-.tutor_details{
-    width: 50%;
-    height: 100%;
-    float: left;
 }
 .partner{
     background-color: skyblue;
@@ -156,10 +150,10 @@ body{
     background-size: inherit;
     height:100%;
     width: 50%;
-    float: left;
 }
-.partner_details{
-    width: 50%;
-    height: 100%;
-    float: right;
+.float-left {
+    float: left
+}
+.float-right {
+    float: right
 }
