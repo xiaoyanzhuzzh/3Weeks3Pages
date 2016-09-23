@@ -199,3 +199,12 @@ body{
 .volunteer_tutors span{
     color: #4183c4
 }
+.footer{
+    background-color: #000000;
+    height: 45px;
+    text-align: center;
+}
+.footer_context{
+    color: #ffffff;
+    padding: 13px 0;
+}
