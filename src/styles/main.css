@@ -142,6 +142,11 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
 }
+.student_details h2,
+.tutor_details h2,
+.partner_details h2{
+    margin-top: 0;
+}
 .tutor{
     background-color: #ffcd62;
 }
@@ -165,4 +170,32 @@ body{
 }
 .float-right {
     float: right
+}
+.progress{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+.progress_title{
+    margin: 50px 0;
+}
+.progress_column{
+    display: inline-block;
+    border: solid 1px #b3b3b3;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+}
+.number{
+    font-size: 60px;
+    display: block;
+    margin: 40px 0;
+}
+.hours_tutored span{
+    color: #1aa629;
+}
+.session_hosted span{
+    color: #ff9632;
+}
+.volunteer_tutors span{
+    color: #4183c4
 }
