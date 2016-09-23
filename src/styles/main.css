@@ -111,12 +111,17 @@ body{
     width: 15em;
     border-radius: 0.4em;
 }
-.button_orange{
-    background-color: #ffc542;
-    border: solid #ffc542 1px;
+.student_button,
+.partner_button,
+.tutor_button{
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    width: 35%;
+    margin: 40px 0;
 }
 .container{
     height: 450px;
+    padding: 0 100px;
 }
 .student{
     background-color: #91d0b1;
@@ -131,7 +136,11 @@ body{
 .tutor_details,
 .partner_details{
     width: 50%;
-    height: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 125px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
 }
 .tutor{
     background-color: #ffcd62;
